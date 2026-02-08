@@ -1,6 +1,6 @@
 function SearchBar({ search, setSearch, onSearch}) {
   return (
-    <div className='flex gap-3 mb-8'>
+    <div className='flex flex-col sm:flex-row gap-3 mb-8'>
       <input type="text" 
         placeholder='Search for recipes...'
         className='flex-1 p-3 rounded-lg border border-gray-300'
